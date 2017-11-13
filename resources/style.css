@@ -134,6 +134,17 @@ nav a{
   margin-bottom: 1rem;
 }
 
-.info-box .p{
+/* footer */
+.footer{
+  margin-top: 5rem;
+  max-width: 960px;
+  margin-bottom: 4rem;
+}
 
+.copyright{
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+  align-items: center;
+  background-color: azure;
 }
