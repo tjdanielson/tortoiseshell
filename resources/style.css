@@ -108,3 +108,32 @@ nav a{
   margin-top: 1rem;
   text-align: center;
 }
+
+.info-container{
+  display: flex;
+  justify-content: center;
+}
+
+.info{
+  display: flex;
+  justify-content: center;
+}
+
+.info-box{
+  display: block;
+  width: 35%;
+  margin: 0 2.5%;
+}
+
+.info-box .title{
+  background-color: cadetblue;
+  width: 10rem;
+  padding: .5rem 1.23rem;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.info-box .p{
+
+}
