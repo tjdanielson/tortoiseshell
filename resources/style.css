@@ -6,21 +6,21 @@ html{
 .header{
   background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
   height: 30rem;
-  background-position: center;
   background-repeat: no-repeat;
-  width: 100%;
-  margin: 0 auto;
   background-size: contain;
+  width: 100%;
+  margin-top: 0;
+  padding-top: 0;
 }
 
-.container{
+.menu-container{
   display: flex;
+  max-width: 960px;
+  margin: 0 auto;
   background-color: cadetblue;
   padding: 1rem 0;
   justify-content: space-between;
   align-items: center;
-  max-width: 960px;
-  margin: 0 auto;
 }
 
 .logo{
@@ -61,7 +61,7 @@ nav a{
   max-width: 960px;
 }
 
-/* content */
+/* icons with titles */
 .product-container{
   display: flex;
   flex-direction: column;
@@ -107,6 +107,8 @@ nav a{
   margin-top: 1rem;
   text-align: center;
 }
+
+/*philosophy and other store info */
 
 .info-container{
   display: flex;
