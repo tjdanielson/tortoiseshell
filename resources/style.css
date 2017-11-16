@@ -202,7 +202,7 @@ nav a{
   }
 }
 
-@media only screen and (max-width: 650px){
+@media only screen and (max-width: 600px){
   .site-container{
     max-width: 100%;
   }
@@ -254,58 +254,96 @@ nav a{
 
 /* product offerings */
 .content{
-  justify-content: center;
-  align-content: center;
+  max-width: 100%;
+  margin: 0 auto;
+
 }
 
 .product-container{
-  display: block;
-  align-items: center;
-  align-content: center;
-  margin: 0;
+  display: flex;
+  justify-content: center;
+  margin: 3.77rem 0;
   width: 100%;
 }
 
 .product{
   display: block;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-
+  align-self: center;
 }
 
 .product-box{
   display: block;
   width: 5rem;
   height: 8rem;
-  margin: 3rem;
-  justify-content: center;
-  align-items: center;
+  margin: 1.5rem;
 }
 
 .product-box img{
   display: block;
-  justify-content: center;
-  align-items: center;
 }
 
 #exam img{
   width: 3.5rem;
+  vertical-align: middle;
+  padding-left: 1rem;
 }
 
 #fittings img{
   width: 5rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 #delivery img{
   width: 5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 .product-box p{
   display: block;
   margin-top: 1rem;
   text-align: center;
+}
+
+.info-container{
+  display: block;
+  justify-content: center;
+  max-width: 100%;
+
+}
+
+.info{
+  display: block;
+  justify-content: center;
+}
+
+.info-box{
+  display: block;
+  width: 100%;
+  margin-bottom: 4rem;
+}
+
+.info-box .title{
+  background-color: cadetblue;
+  width: 100%;
+  margin-bottom: 1rem;
+  margin-left: 0;
+  margin-right: 0;
+  padding: .5rem 0;
+  color: white;
+  font-weight: bold;
+  padding-left: 1rem;
+}
+
+/* footer */
+
+.copyright p{
+  display: none;
+}
+
+.copyright {
+  justify-content: center;
+  max-width: 100
+  margin: 0 0;
+  padding: 0
 }
 
 }
